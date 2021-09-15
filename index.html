@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <link rel="stylesheet" href="./assets/css/style.css" />
         <meta charset="UTF-8" />
-        <title> Run Buddy</title>
+        <title>Run Buddy</title>
     </head>
-    <body>
 
+<body>
 <!-- navigation -->
     <header>
         <h1>
-            <a href="/">RUN BUDDY</a>
+            <a href="/">
+                RUN BUDDY
+            </a>
         </h1>
         <nav>
             <!-- Unordered list element -->
             <ul>
-                <!-- List item element -->
+            <!-- List item element -->
                 <li>
                     <!-- Anchor element -->
-                    <a href="#what -we-do">What We Do</a>
+                    <a href="#what-we-do">What We Do</a>
                 </li>
                 <li>
                     <a href="#what-you-do">What You Do</a>
@@ -34,18 +37,18 @@
     </header>
 
 <!-- hero/jumbotron -->
-<section>
-    <div>
+<section class="hero">
+    <div class="hero-form">
         <h3>Get Started Today</h3>
         <p>Fill out this form and one of our trainers will schedule a consult</p>
         <!-- Add form element -->
         <form>
             <label for="name">Enter full name:</label>
-            <input type="text" placeholder="Your Name" name="name" id="name"/>
+            <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
             <label for="email">Enter email address:</label>
-            <input type="email" placeholder="Email Address" name="email" id="email"/>
+            <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
             <label for="phone">Enter a telephone number:</label>
-            <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
             <p>
                 Have you worked out with a trainer before?
                 <input type="radio" name="trainer-confirm" id="trainer-yes"/>
@@ -67,22 +70,112 @@
 </section>
 
 <!-- "what we do" section-->
-    <section>
-        <h2>What We Do</h2>
+    <section id="what-we-do" class="intro">
+        <h2 class="section-title primary-border">What We Do</h2>
+        <p>
+            butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+        </p>
     </section>
 
 <!-- "what you do" section-->
-    <section>
-        <h2>What You Do</h2>
+    <section id="what-you-do" class="steps">
+        <h2 class="section-title secondary-border">What You Do</h2>
+
+        <div>
+            <!-- insert img element -->
+            <img src="./assets/images/01-04-svgs/step-1.svg" alt="" />
+            <h3>
+                Step 1: 
+                <span>
+                    Fill Out the Form Above.
+                </span>
+            </h3>
+            <p>
+                You're already here, so why not?
+            </p>
+        </div>
+
+        <div>
+            <img src="./assets/images/01-04-svgs/step-2.svg" alt="" />
+            <h3>
+                Step 2:
+                <span>
+                    Consult with One of Our Trainers.
+                </span> 
+            </h3>
+            <p>
+                Are you here to build muscle, lose weight, or just feel good?
+            </p>
+        </div>
+
+        <div>
+            <img src="./assets/images/01-04-svgs/step-3.svg" alt="" />
+            <h3>
+               Step 3: 
+                <span>
+                    Get Running.
+                </span>
+            </h3>
+            <p>
+                Hit the ground running (literally) once your trainer lays out your plan.
+            </p>
+        </div>
+
+        <div>
+            <img src="./assets/images/01-04-svgs/step-4.svg" alt="" />
+            <h3>
+                Step 4: 
+                <span>
+                    See Results.
+                </span>
+            </h3>
+            <p>
+                Bi-weekly checkins with your trainer will keep you focused
+            </p>
+        </div>
     </section>
 
 <!-- "meet the trainers" section -->
-    <section>
-        <h2>Meet The Trainers</h2>
+    <section id="your-trainers" class="trainers">
+        <h2 class="section-title primary-border">
+            Meet The Trainers
+        </h2>
+        <article class="trainer">
+            <img src="./assets/images/01-05-trainers/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+            <div class="trainer-bio text-left">
+                <h3>Arron Stephens</h3>
+                <h4>Speed / Strength</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium sunt reiciendis asperiores ut, distinctio, quae soluta est aperiam, ea laborum id deserunt! Quaerat inventore sunt commodi. Culpa accusamus nihil dolorem?
+                </p>
+            </div>
+        </article>
+
+        <article class="trainer">
+            <div class="trainer-bio text-right">
+                <h3>Joanna Gill</h3>
+                <h4>Endurance</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ullam similique hic dignissimos, sit magni nihil porro voluptatum suscipit amet, veritatis architecto non obcaecati nulla enim ratione vero officia expedita?
+                </p>
+            </div>
+            <img src="./assets/images/01-05-trainers/trainer-2.jpg" alt="Joanna Gill is ready to help transform your body" />
+        </article>
+
+        <article class="trainer">
+            <img src="./assets/images/01-05-trainers/trainer-3.jpg" alt="Harry 'The Headband' Smith with his signature headband" />
+            <div class="trainer-bio text-left">
+                <h3>Harry "The Headband" Smith</h3>
+                <h4>Strength</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse dolores, repellendus, deserunt aliquam, quasi aliquid commodi eligendi totam quisquam accusamus praesentium necessitatibus quae rem voluptatem? Sequi odio possimus repellendus eligendi.
+                </p>
+            </div>
+        </article>
     </section>
 
  <!-- "reach out" section-->
-    <section>
+    <section id="reach-out">
         <h2>Reach Out</h2>
     </section>
 
@@ -96,6 +189,6 @@
             &copy; 2019 Run Buddy, Inc.
         </div>
     </footer>
-
 </body>
-</htm>
+
+</html>
