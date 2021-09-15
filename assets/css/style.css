@@ -101,3 +101,26 @@ section {
     bottom: 120px;
     right: 140px;
 }
+/* Make <h3> Larger and Set Margin to 0 prevent word wrapping */
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+/* Add space to <p> element top and bottom margin */
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+/* Style Form Input */
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+/* Spacing in <label> making easier view */
+.hero-form label {
+    margin: 0 5px;
+}
