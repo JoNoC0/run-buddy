@@ -60,11 +60,13 @@ footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* applies style to left of <h2> element */
 footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
@@ -72,7 +74,6 @@ footer h2 {
 
 /* applies style to right of <div> container */
 footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
@@ -89,9 +90,11 @@ section {
 /* Hero Style Start */
 .hero {
     background-image: url(../images/hero-bg.jpg);
-    height: 600px;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 /* Hero Style End */
 
@@ -100,11 +103,7 @@ section {
     border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
     color: #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
 }
 /* Make <h3> Larger and Set Margin to 0 prevent word wrapping */
 .hero-form h3 {
@@ -137,7 +136,12 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-
+/* Call to action */
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5;
+}
 .intro {
     text-align: center;
 }
