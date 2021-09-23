@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <link rel="stylesheet" href="./assets/css/style.css" />
         <meta charset="UTF-8" />
         <title>Run Buddy</title>
     </head>
-
 <body>
 <!-- navigation -->
     <header>
         <h1>
-            <a href="/">
-                RUN BUDDY
-            </a>
+            <a href="/">RUN BUDDY</a>
         </h1>
         <nav>
             <!-- Unordered list element -->
@@ -35,7 +31,6 @@
             </ul>
         </nav>
     </header>
-
 <!-- hero/jumbotron -->
 <section class="hero">
     <div class="hero-cta">
@@ -44,6 +39,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nostrum, possimus maxime odit explicabo ipsa nesciunt. Dolore possimus optio ab neque autem vitae quas labore! Aliquid illum omnis maiores consequuntur?
         </p>
     </div>
+
   <div class="hero-form">
     <h3>Get Started Today</h3>
     <p>Fill out this form and one of our trainers will schedule a consult</p>
@@ -73,26 +69,28 @@
     </form>
   </div>
 </section>
+<!-- end of header -->
 
 <!-- "what we do" section-->
-    <section id="what-we-do" class="intro">
-        <div class="flex-row">
+<section id="what-we-do" class="intro">
+    <div class="flex-row">
         <h2 class="section-title primary-border">What We Do</h2>
-        </div>
-        <div class="fex-row">
+    </div>
+    <div class="flex-row">
         <p>
           butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
         </p>
-        </div>
-    </section>
+    </div>
+</section>
+<!-- end of "what we do" -->
 
 <!-- "what you do" section-->
 <section id="what-you-do" class="steps">
     <div class="flex-row">
         <h2 class="section-title secondary-border">What You Do</h2>
-
+    </div>
     <div class="step">
-        <h3>Step 1:</h3>
+        <h3>Step 1.</h3>
         <div class="step-info">
             <div class="step-img">
                 <!-- insert img element -->
@@ -106,7 +104,7 @@
     </div>
 
     <div class="step">
-        <h3>Step 2:</h3>
+        <h3>Step 2.</h3>
         <div class="step-info">
             <div class="step-img">
                 <img src="./assets/images/01-04-svgs/step-2.svg" alt="" />
@@ -119,7 +117,7 @@
     </div>
 
     <div class="step">
-        <h3>Step 3:</h3> 
+        <h3>Step 3.</h3> 
         <div class="step-info">
             <div class="step-img">
                 <img src="./assets/images/01-04-svgs/step-3.svg" alt="" />
@@ -132,7 +130,7 @@
     </div>
 
     <div class="step">
-        <h3>Step 4:</h3>
+        <h3>Step 4.</h3>
         <div class="step-info">
             <div class="step-img">
                 <img src="./assets/images/01-04-svgs/step-4.svg" alt="" />
@@ -143,16 +141,16 @@
             </div>
         </div>
     </div>
-    </div>
-    </div>
 </section>
+<!-- end of "what you do" -->
 
 <!-- "meet the trainers" section -->
 <section id="your-trainers">
     <div class="flex-row">
-        <div class="trainers">
-            <h2 class="section-title primary-border">Meet The Trainers</h2>
+        <h2 class="section-title primary-border">Meet The Trainers</h2>
+    </div>
 <!-- add trainer 1 info -->
+<div class="trainers">
     <article class="trainer">
         <img src="./assets/images/01-05-trainers/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
             <div class="trainer-bio">
@@ -163,7 +161,6 @@
                 </p>
             </div>
     </article>
-
 <!-- add trainer 2 info -->
     <article class="trainer">
             <img src="./assets/images/01-05-trainers/trainer-2.jpg" alt="Joanna Gill is ready to help transform your body" />
@@ -175,7 +172,6 @@
                 </p>
             </div>
     </article>
-
 <!-- add trainer 3 info -->
     <article class="trainer">
             <img src="./assets/images/01-05-trainers/trainer-3.jpg" alt="Harry 'The Headband' Smith with his signature headband" />
@@ -187,53 +183,55 @@
                 </p>
             </div>
     </article>
-        </div>
-    </div>
+</div>
 </section>
+<!-- end of "meet the trainers" -->
 
  <!-- "reach out" section-->
-    <section id="reach-out" class="contact">
-        <div class="flex-row">
-        <h2 class="section-title secondary-border">Reach Out</h2>
+<section id="reach-out" class="contact">
+    <div class="flex-row">
+    <h2 class="section-title secondary-border">Reach Out</h2>
+    </div>
+
         <div class="contact-info">
+        <div>
+            <h3>Run Buddy</h3>
+            <p>
+              Any questions or concerns before signing up?
+              <br/>
+              Let us know and we'll be happy to talk to you!
+            </p>
+
+            <address>
+                55 Main Street <br/>
+                Some Town, Ca <br/>
+                12345 <br/>
+                P: 555.RUN.BUDZ (555.786.2839) <br/>
+                E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+            </address>
+
+        </div>
+
+        <div class="contact-form">
+            <h3>Contact Us</h3>
+            <form>
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" placeholder="Your Name" />
+
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" placeholder="Message"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
             <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57433.0332397598!2d-89.41804987534516!3d31.284580838277734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889cdc49d5a828df%3A0x74b1bf922d1cb5ca!2sHattiesburg%2C%20MS!5e0!3m2!1sen!2sus!4v1631734455968!5m2!1sen!2sus" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy">
-            </iframe>
-            <div class="contact-form">
-                <h3>Contact Us</h3>
-                <form>
-                    <label for="contact-name">Your Name</label>
-                    <input type="text" id="contact-name" placeholder="Your Name" />
-    
-                    <label for="contact-message">Message</label>
-                    <textarea id="contact-message" placeholder="Message"></textarea> 
-    
-                    <button type="submit">Submit</button>
-                </form>
-            </div>
-        </div>
-        </div>
-         <div>
-          <h3>Run Buddy</h3>
-          <p>
-            Any questions or concerns before signing up?
-            <br/>
-            Let us know and we'll be happy to talk to you!
-          </p>
-          <address>
-              55 Main Street <br/>
-              Some Town, Ca <br/>
-              12345 <br/>
-              P: 555.RUN.BUDZ (555.786.2839) <br/>
-              E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
-          </address>
-         </div>
-        </div>
-    </section>
-    
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57433.0332397598!2d-89.41804987534516!3d31.284580838277734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889cdc49d5a828df%3A0x74b1bf922d1cb5ca!2sHattiesburg%2C%20MS!5e0!3m2!1sen!2sus!4v1631734455968!5m2!1sen!2sus" 
+                frameborder="0" style="border:0;" allowfullscreen="">
+            </iframe> 
+    </div>
+</section>
+<!-- end of "reach out" -->
 
 <!-- footer -->
     <footer>
@@ -246,5 +244,4 @@
         </div>
     </footer>
 </body>
-
 </html>
