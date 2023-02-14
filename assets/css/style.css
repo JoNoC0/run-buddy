@@ -15,16 +15,17 @@ body {
 header {
     background-color: #39a6b2;
     padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
     background-color: #39a6b2;
     color: #fce138;
-    display: inline;
     font-weight: bold;
     font-size: 36px;
     margin: 0;
-    padding: 20px 35px;
 }
 
 header a {
@@ -33,7 +34,6 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
