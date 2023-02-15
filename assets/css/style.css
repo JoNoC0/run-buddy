@@ -158,9 +158,11 @@ header nav ul li a {
     align-items: center;
     justify-content: space-between;
 }
+
 .step h3 {
     color: #024e76;
     font-size: 46px;
+    flex: 1 30%;
 }
 
 .step-img {
@@ -174,6 +176,7 @@ header nav ul li a {
 
 .step-info {
     display: flex;
+    flex: 2 70%;
     flex-wrap: wrap;
     align-items: center;
 }
