@@ -234,8 +234,8 @@
     align-items: center;
     justify-content: space-between;
   }
-  
-.step:last-child {
+  /* add bottom border except last step */
+.step:not(last-child) {
   border-bottom: 1px solid #39a6b2;
 }
 
